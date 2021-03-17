@@ -1,0 +1,48 @@
+  <section class="left">left</section>
+    <section class="center">center
+        
+        <article class="blank-left-column">inner r</article>
+        <article class="name-tag">
+            <div class="hello">hello</div>
+            <div class="my-name-is">my name is</div>
+            <div class="hayden"></div>hayden</article>
+        <article class="blank-right-column">inner l</article>
+        </section>
+    <section class= right>right</section>
+    
+
+    body {
+    display:grid;
+    grid-template-columns: 30px auto 30px;
+    height: 500px;
+
+}
+
+img {
+    object-fit: cover;
+    height: auto;
+    position: center;
+}
+section {
+    border: 1px solid;
+    border-color: black;
+}
+.left {
+    background-color: aqua;
+    display: grid
+} 
+.center {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+}
+.right {
+    background-color: aqua;
+    display: grid
+}
+body article {
+    display:grid;
+    grid-template-columns: 50px 100px auto;
+    background-color: blue;
+    color: white;
+}
